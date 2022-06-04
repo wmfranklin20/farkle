@@ -15,6 +15,14 @@ class player:
         self.score = score
         self.roll = roll
 
-a = input()
+print ('How many players are there?')
+numPlayers = int(input())
 
-print (type(a))
+players = []
+for item in range(numPlayers):
+    print ("Who is player " + str(item+1) + "?")
+    players.append(player(input(), 0, 0))
+
+print('Great! The players are: ')
+for item in players:
+    print (item.name)

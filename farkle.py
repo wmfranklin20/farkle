@@ -1,7 +1,6 @@
 import random
 import math
 
-from numpy import roll
 
 initRoll = 6
 

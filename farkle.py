@@ -39,10 +39,15 @@ for item in players:
         a.append(first)
         first = first + 1
 
+playersOrdered = []
+for item in a:
+    playersOrdered.append(players[item])
+
 print (a)
 
-
-
+for item in playersOrdered:
+    print (item.__dict__)
+  
 initRoll = 6
 
 roll = []

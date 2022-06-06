@@ -42,8 +42,6 @@ for item in players:
 print (a)
 
 
-print ('test')
-
 
 initRoll = 6
 

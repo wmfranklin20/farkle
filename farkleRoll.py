@@ -1,5 +1,7 @@
 import random
 
+
+#initial roll of six dice
 initRoll = 6
 
 roll = []
@@ -8,12 +10,35 @@ for item in range(initRoll):
 
 print (roll)
 
-ones = 0
+
+#define counter list for number of each dice rolled
+rollScore = [0,0,0,0,0,0]
 
 for item in roll:
     if item == 1:
-        ones += 1
+        rollScore[0] += 1
+    elif item == 2:
+        rollScore[1] += 1
+    elif item == 3:
+        rollScore[2] += 1
+    elif item == 4:
+        rollScore[3] += 1
+    elif item == 5:
+        rollScore[4] += 1
+    elif item == 6:
+        rollScore[5] += 1       
 
-print (ones)
+print (rollScore)
 
-print ('Test')
+
+#scoring based on current dice roll
+score = 0
+
+for idx, item in enumerate(rollScore):
+    print (item)
+    if item == 3:
+        score += ((int(idx)+1) * 100)
+    elif item == 4:
+        score += 1000
+
+print (score)

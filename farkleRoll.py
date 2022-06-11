@@ -10,6 +10,11 @@ for item in range(initRoll):
 
 print (roll)
 
+uniqueDie = []
+for item in roll:
+    if item not in uniqueDie:
+        uniqueDie.append(item)
+print(uniqueDie)
 
 #define counter list for number of each dice rolled
 rollScore = [0,0,0,0,0,0]
@@ -30,6 +35,11 @@ for item in roll:
 
 print (rollScore)
 
+uniqueScore = []
+for item in rollScore:
+    if item not in uniqueScore:
+        uniqueScore.append(item)
+print(uniqueScore)
 
 #scoring based on current dice roll
 score = 0
@@ -37,8 +47,8 @@ score = 0
 for idx, item in enumerate(rollScore):
     print (item)
     if item == 3:
-        score += ((int(idx)+1) * 100)
+        score = ((int(idx)+1) * 100)
     elif item == 4:
-        score += 1000
+        score = 1000
 
 print (score)

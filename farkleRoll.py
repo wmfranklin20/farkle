@@ -15,3 +15,5 @@ for item in roll:
         ones += 1
 
 print (ones)
+
+print ('Test')

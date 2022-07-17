@@ -1,3 +1,3 @@
-import farkleScoring
-import farklePlayers
-import farkleRoll
+import farkle.scoring
+import farkle.players
+import farkle.roll

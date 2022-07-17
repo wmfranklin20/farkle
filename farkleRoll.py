@@ -1,6 +1,5 @@
 import random
 
-
 #initial roll of six dice
 initRoll = 6
 

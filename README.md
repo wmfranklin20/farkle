@@ -1,7 +1,7 @@
 # farkle.py
 Basic Farkle program in Python
 
-Currently the file is seperated into two files, one focused on setting up player order and classes, and a second to build the program for deciding rolls and how many dice are kept.
+Currently the file is seperated into three sub-files, one focused on setting up player order and classes,  a second to build the program for deciding rolls and how many dice are kept and a third to house the scoring rules. These files are then merged in a main farkle.py file.
 
 ## Player Setup:
 

@@ -7,13 +7,13 @@ roll = []
 for item in range(initRoll):
     roll.append(random.randint(1,6))
 
-print (roll)
+print ("Player rolled: " + str(roll))
 
 uniqueDie = []
 for item in roll:
     if item not in uniqueDie:
         uniqueDie.append(item)
-print(uniqueDie)
+#print(uniqueDie)
 
 #define counter list for number of each dice rolled
 rollScore = [0,0,0,0,0,0]
@@ -32,7 +32,7 @@ for item in roll:
     elif item == 6:
         rollScore[5] += 1       
 
-print (rollScore)
+print ("Number of each dice rolled: " + str(rollScore))
 
 uniqueScore = []
 for item in rollScore:

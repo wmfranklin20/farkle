@@ -3,6 +3,10 @@ Basic Farkle program in Python
 
 Currently the file is seperated into two files, one focused on setting up player order and classes, and a second to build the program for deciding rolls and how many dice are kept.
 
+## Player Setup:
+
+Takes player names as user input, and randomly selects a starting player from the input list.  Note, order will follow however the user types the the names of players as they are ordered around the table, the program will pick a random start point but maintain the order of the table.
+
 
 ## Scoring Mechanisms:
 

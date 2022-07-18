@@ -1,4 +1,5 @@
 import random
+import scoring as sc
 
 #initial roll of six dice
 initRoll = 6
